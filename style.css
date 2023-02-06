@@ -221,27 +221,26 @@ a {text-decoration: none;}
 .email{color: #000;}
 
 
-.title-bg {position: absolute;z-index: 999; top:0; left: 0;background:#fff;height: 100%;width: 100%;display: flex;align-items: center;justify-content: center;font-size:60px;font-weight: 800;mix-blend-mode: lighten;}
+.title-bg {position: absolute;z-index: 999; top:0; left: 0;background:#ffffff;height: 100%;width: 100%;display: flex;align-items: center;justify-content: center;font-size:60px;font-weight: 800;mix-blend-mode: lighten;}
 
 #background-video{
 width: 100%;
 }
-.head-wlcm{
-	font-size:50px;
-	font-weight: 700;
+.title-bgs{
+	font-size:80px;
+	font: bold;
+	font-weight: 1000;
 	text-align: center;
+	transition: .5s;
 
 }
-.title-bg::-webkit-scrollbar {
+.title-bgs::-webkit-scrollbar {
 	display: none;
   }
-  .title-bg.scrollbar-hidden::-webkit-scrollbar {
+  .title-bgs.scrollbar-hidden::-webkit-scrollbar {
 	display: block;
   }
  
-
-
-
 @media (min-width:320px) and (max-width:480px){
     .heading-text{font-size: 27px;}
     .lead-head{font-size: 22px;}
